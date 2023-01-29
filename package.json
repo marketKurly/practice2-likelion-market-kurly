@@ -7,7 +7,7 @@
     "start": "npx live-server client --host=localhost --port=5500 --no-browser",
     "serve": "npx json-server server/db/data.json",
     "all": "run-p serve start",
-    "sass": "sass scss:./client/css",
+    "sass": "sass ./client/scss:./client/css",
     "watch": "npm run sass -- --watch"
   },
   "repository": {
